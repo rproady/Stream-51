@@ -1,12 +1,20 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/rproady/Stream-51/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## What is streaming classification?
 
-### Markdown
+Instead of traditional image classification datasets which train on thousands of independent images per object, we built a dataset made up of dozens of small snippets of videos.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Training a classification model in this way forces the model to generalize from highly correlated images and approximates how real-time agents must learn to classify objects.  
+
+## Why include novelty detection?
+
+In addition to streaming data we also establish protocols for novel object identification by including novel classes in our evaluation set that are unseen during the training sequences.
+
+## What does our dataset contain?
+
+## Where can I download the Stream-51 dataset?
+
+
 
 ```markdown
 Syntax highlighted code block
