@@ -1,4 +1,4 @@
-
+Download the dataset here: [Stream-51](https://drive.google.com/file/d/15huZ756N2cp1CCO4HxF-MVDsMx1LMoIn/view?usp=sharing)
 
 ## What is streaming classification?
 
@@ -12,34 +12,5 @@ In addition to streaming data we also establish protocols for novel object ident
 
 ## What does our dataset contain?
 
-## Where can I download the Stream-51 dataset?
-
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rproady/Stream-51/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## How can I create a Dataset or Dataloader?
+Within the downloaded files are two pickle files containing a python list which lists out each image file and the source class, video, and clip within the dataset.  To organize the dataset for training in Pytorch via one of the baseline orderings we have provided a sample dataset class and dataloader function within the 'StreamDataset.py' file above
