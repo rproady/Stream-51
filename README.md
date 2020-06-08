@@ -13,4 +13,4 @@ In addition to streaming data we also establish protocols for novel object ident
 ## What does our dataset contain?
 
 ## How can I create a Dataset or Dataloader?
-Within the downloaded files are two pickle files containing a python list which lists out each image file and the source class, video, and clip within the dataset.  To organize the dataset for training in Pytorch via one of the baseline orderings we have provided a sample dataset class and dataloader function within the 'StreamDataset.py' file above
+Within the downloaded files are two pickle files containing a python list which lists out each image file and the source class, video, and clip within the dataset.  To organize the dataset for training in Pytorch via one of the baseline orderings we have provided a sample dataset class and dataloader function within the `StreamDataset.py` file above
